@@ -167,9 +167,6 @@ const EventDetailsDialog = ({ event, isOpen, onClose }: EventDetailsDialogProps)
                       <p className="text-lg font-display font-bold text-secondary">{event.fee}</p>
                     </div>
                   </div>
-                  <div className="text-right">
-                    <p className="text-xs text-muted-foreground">Per Team/Participant</p>
-                  </div>
                 </div>
               )}
 

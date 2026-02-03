@@ -38,7 +38,7 @@ const events: EventDetails[] = [
     registrationLink: "https://forms.gle/E2eEoXzu9jxpcbT39",
     fee: "₹400",
     coordinators: {
-      teachers: ["Ms. Divya S", "Ms. Greeshma Muraly", "Mr. Bobby Joseph"],
+      teachers: ["Ms. Divya S", "Ms. Greeshma Muraly", "Ms. Bobby Joseph"],
       students: ["John Joji (+91 70751 87123)", "Melvin Thomas"]
     }
   },
@@ -101,7 +101,11 @@ const events: EventDetails[] = [
       "The most promising and impactful project will be recognized with a cash prize."
     ],
     registrationLink: "https://forms.gle/fHmjQkizPfAjsw8h7",
-    fee: "₹400"
+    fee: "₹400",
+    coordinators: {
+      teachers: ["Mr. Prasobh John", "Mr. Albin Andrews", "Ms. Reenu Paul"],
+      students: ["Tom Alex", "Neha Sam (+91 6282 108 574)"]
+    }
   },
 ];
 
@@ -208,7 +212,7 @@ const EventsSection = () => {
 
         {/* More Events Coming Soon */}
         <div className="text-center mt-12">
-          <p className="text-muted-foreground">More events coming soon...</p>
+          <p className="text-muted-foreground"></p>
         </div>
       </div>
 

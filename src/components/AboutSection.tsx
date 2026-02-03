@@ -65,9 +65,7 @@ const AboutSection = () => {
                 on 6 February 2026
               </p>
 
-              <p className="text-center italic mt-6">
-                Kindly support this academic event.
-              </p>
+
             </div>
 
             <div className="mt-8 p-6 rounded-xl bg-card/50 border border-border/50 backdrop-blur-sm">
