@@ -62,7 +62,7 @@ const AboutSection = () => {
               </div>
 
               <p className="text-center font-medium text-foreground mt-4">
-                on 6 February 2026
+                on 19 February 2026
               </p>
 
 

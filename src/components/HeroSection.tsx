@@ -41,7 +41,7 @@ const HeroSection = () => {
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 mb-10 text-muted-foreground animate-fade-in" style={{ animationDelay: '0.3s' }}>
           <div className="flex items-center gap-2">
             <Calendar className="w-5 h-5 text-primary" />
-            <span>6 February 2026</span>
+            <span>19 February 2026</span>
           </div>
           <div className="hidden md:block w-1 h-1 rounded-full bg-primary" />
           <div className="flex items-center gap-2">

@@ -13,8 +13,8 @@ const events: EventDetails[] = [
     category: "AI-Powered Ideathon",
     description: "An AI-powered ideathon by the Dept. of Computer Science, St. Berchmans College. Teams tackle niche problems, present innovative solutions, and optionally build an MVP prototype. This is your chance to showcase your problem-solving skills and creativity using AI technologies.",
     prize: "₹10,000",
-    date: "6 February 2026",
-    time: "9:00 AM - 5:00 PM",
+    date: "19 February 2026",
+    time: "9:30 AM onwards",
     teamSize: "1-4 Members",
     venue: "Computer Science Lab",
     highlights: [
@@ -26,7 +26,7 @@ const events: EventDetails[] = [
       "Cash prizes for winners"
     ],
     rules: [
-      "Preliminary Filter (MCQ Round): Conducted if >10 teams register. 20-min Technical MCQ (Prompt Engineering, AI Ethics, Logic). Top 10 proceed.",
+      "Preliminary Filter (MCQ Round): Conducted if more than 10 teams register. 20-min Technical MCQ (Prompt Engineering, AI Ethics, Logic). Top 10 proceed.",
       "Main Event - 90-Minute Design Sprint: Countdown begins on Theme Reveal. Teams identify specific problem within theme.",
       "Niche Locking: First-Come, First-Served basis. No two teams can work on the same niche.",
       "Creation Task: Use AI tools (ChatGPT, Gemini, etc.) to produce Solution Blueprint (Presentation) and optional Miniature Version (Demo).",
@@ -38,7 +38,7 @@ const events: EventDetails[] = [
     registrationLink: "https://forms.gle/E2eEoXzu9jxpcbT39",
     fee: "₹400",
     coordinators: {
-      teachers: ["Ms. Divya S", "Ms. Greeshma Muraly", "Ms. Bobby Joseph"],
+      teachers: ["Ms. Bobby Joseph", "Ms. Divya S", "Ms. Greeshma Muraly"],
       students: ["John Joji (+91 70751 87123)", "Melvin Thomas"]
     }
   },
@@ -48,8 +48,8 @@ const events: EventDetails[] = [
     category: "AI-Based Web Designing Competition",
     description: "A team-based AI web designing competition. Showcase your frontend design skills power-packed with AI tools. Create stunning, responsive web interfaces and present your concepts to the judges.",
     prize: "₹10,000",
-    date: "6 February 2026",
-    time: "10:00 AM - 4:00 PM",
+    date: "19 February 2026",
+    time: "9:30 AM onwards",
     teamSize: "2-4 Members",
     venue: "Computer Science Lab",
     highlights: [
@@ -72,8 +72,8 @@ const events: EventDetails[] = [
     registrationLink: "https://forms.gle/TspZSzLhNbSRRxhe9",
     fee: "₹400",
     coordinators: {
-      teachers: ["Ms. Dhanya C. Nair (+91 82812 71755)", "Ms. Jasmin Sebastine", "Ms. Rini Elizabeth"],
-      students: ["Aromal Sreekumar (+91 7012011756)", "Athul Krishnan", "Adithyan Manoj"]
+      teachers: ["Ms. Dhanya C. Nair ", "Ms. Rini Elizabeth", "Ms. Jasmin Sebastin"],
+      students: ["Aromal Sreekumar (+91 7012011756)", "Athul Krishnan", "Adhithyan Manoj"]
     }
   },
   {
@@ -82,9 +82,9 @@ const events: EventDetails[] = [
     category: "Project Idea Presentation Event",
     description: "Pitch Mind AI is an offline project idea presentation event conducted by the Department of Computer Science, St. Berchmans College, Changanassery. The event aims to identify and encourage students with innovative software project or startup ideas, with a preference for AI-powered solutions (mandatory). All proposed solutions must be ethical, responsible, and socially beneficial.",
     prize: "₹10,000",
-    date: "6 February 2026",
-    time: "10:00 AM - 4:00 PM",
-    teamSize: "1-4 Members",
+    date: "19 February 2026",
+    time: "9:30 AM onwards",
+    teamSize: "1-2 Members",
     venue: "St. Berchmans College",
     highlights: [
       "Offline project idea presentation",
@@ -94,16 +94,16 @@ const events: EventDetails[] = [
       "Cash prize for winners"
     ],
     rules: [
-      "Participants may register individually or as a team (maximum 4 members per team).",
+      "Participants may register individually or as a team (maximum 2 members per team).",
       "Submitted projects will be evaluated through presentations at the college.",
       "If the number of registered participants or teams exceeds 10, an online preliminary elimination round will be conducted before the offline evaluation.",
       "All participants will receive a participation certificate.",
       "The most promising and impactful project will be recognized with a cash prize."
     ],
     registrationLink: "https://forms.gle/fHmjQkizPfAjsw8h7",
-    fee: "₹400",
+    fee: "₹200",
     coordinators: {
-      teachers: ["Mr. Prasobh John", "Mr. Albin Andrews", "Ms. Reenu Paul"],
+      teachers: ["Ms. Reenu Paul", "Mr. Prasobh John", "Mr. Albin Andrews"],
       students: ["Tom Alex", "Neha Sam (+91 6282 108 574)"]
     }
   },
