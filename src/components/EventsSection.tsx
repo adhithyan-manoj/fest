@@ -62,11 +62,12 @@ const events: EventDetails[] = [
     ],
     rules: [
       "Team-based event: 2 to 4 members per team.",
-      "All participants must actively take part in designing and presentation.",
+
       "Allowed tools: Figma, Antigravity / Lovable, ChatGPT, Gemini, and other AI-supported tools.",
       "A common topic will be provided at the start. Teams must design within the time limit.",
       "Earliest completion gets priority.",
       "Teams must present their website: Concept, Design approach, Tools used.",
+      "All Students should confidently participate in the presentation stage",
       "Judges may ask questions during presentation; all members should respond confidently."
     ],
     registrationLink: "https://forms.gle/TspZSzLhNbSRRxhe9",
