@@ -5,9 +5,9 @@ const sponsors = [
     alt: "Etomosphere - Digital Solutions Partner"
   },
   {
-    name: "PA",
-    logo: "/sponsor-pa.png",
-    alt: "PA - Performance Arts Partner"
+    name: "Edimannickal Gold & Diamonds",
+    logo: "/sponsor-edimannickal.png",
+    alt: "Edimannickal Gold & Diamonds - Jewelry Partner"
   },
   {
     name: "Kanjirappally Kappi",
