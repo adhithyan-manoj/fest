@@ -60,7 +60,7 @@ const HeroSection = () => {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-3 gap-8 mt-16 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: '0.5s' }}>
+        <div className="grid grid-cols-2 gap-8 mt-16 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: '0.5s' }}>
           <div className="text-center">
             <div className="font-display text-3xl md:text-4xl font-bold text-primary mb-1">4</div>
             <div className="text-sm text-muted-foreground">Events</div>
@@ -69,10 +69,7 @@ const HeroSection = () => {
             <div className="font-display text-3xl md:text-4xl font-bold text-primary mb-1">200+</div>
             <div className="text-sm text-muted-foreground">Participants</div>
           </div>
-          <div className="text-center">
-            <div className="font-display text-3xl md:text-4xl font-bold text-primary mb-1">₹30K</div>
-            <div className="text-sm text-muted-foreground">Prize Pool</div>
-          </div>
+
         </div>
       </div>
 

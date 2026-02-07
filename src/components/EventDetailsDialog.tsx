@@ -96,6 +96,12 @@ const EventDetailsDialog = ({ event, isOpen, onClose }: EventDetailsDialogProps)
             <div>
               <h4 className="font-display font-semibold text-foreground mb-2">About the Event</h4>
               <p className="text-muted-foreground text-sm leading-relaxed">{event.description}</p>
+              <div className="mt-4 p-3 rounded-lg bg-primary/10 border border-primary/20 flex items-center gap-3">
+                <Clock className="w-5 h-5 text-primary flex-shrink-0" />
+                <p className="text-sm font-medium text-foreground">
+                  Spot registration ends at <span className="text-primary font-bold">9:30 AM on 19th February</span>.
+                </p>
+              </div>
             </div>
 
             {/* Highlights */}

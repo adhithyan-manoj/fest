@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Banknote, Trophy } from "lucide-react";
 import sprintAiImage from "@/assets/event-sprint-ai.jpg";
 import webXcelerateImage from "@/assets/event-webxcelerate.jpg";
-import pitchMindAiImage from "@/assets/event-pitch-mind-ai.jpg";
+import pitchMindAiImage from "@/assets/event-pitch-mind-ai.png";
 import EventDetailsDialog, { EventDetails } from "./EventDetailsDialog";
 
 const events: EventDetails[] = [
@@ -12,7 +12,7 @@ const events: EventDetails[] = [
     title: "Sprint AI",
     category: "AI-Powered Ideathon",
     description: "An AI-powered ideathon by the Dept. of Computer Science, St. Berchmans College. Teams tackle niche problems, present innovative solutions, and optionally build an MVP prototype. This is your chance to showcase your problem-solving skills and creativity using AI technologies.",
-    prize: "₹10,000",
+    prize: "₹6000",
     date: "19 February 2026",
     time: "9:30 AM onwards",
     teamSize: "1-4 Members",
@@ -33,7 +33,8 @@ const events: EventDetails[] = [
       "Pitching Round: 10 mins per team (7 min pitch + 3 min Q&A).",
       "Evaluation Focus: Innovation, Technical feasibility, Impact & ethics.",
       "Core solution must be AI-powered. At least one part must be implemented or demonstrated.",
-      "All solutions must be ethical and socially beneficial."
+      "All solutions must be ethical and socially beneficial.",
+      "Spot registration will end on 9:30 AM on 19th February."
     ],
     registrationLink: "https://forms.gle/E2eEoXzu9jxpcbT39",
     fee: "₹400",
@@ -47,7 +48,7 @@ const events: EventDetails[] = [
     title: "WebXcelerate AI",
     category: "AI-Based Web Designing Competition",
     description: "A team-based AI web designing competition. Showcase your frontend design skills power-packed with AI tools. Create stunning, responsive web interfaces and present your concepts to the judges.",
-    prize: "₹10,000",
+    prize: "₹6000",
     date: "19 February 2026",
     time: "9:30 AM onwards",
     teamSize: "2-4 Members",
@@ -68,7 +69,8 @@ const events: EventDetails[] = [
       "Earliest completion gets priority.",
       "Teams must present their website: Concept, Design approach, Tools used.",
       "All Students should confidently participate in the presentation stage",
-      "Judges may ask questions during presentation; all members should respond confidently."
+      "Judges may ask questions during presentation; all members should respond confidently.",
+      "Spot registration will end on 9:30 AM on 19th February."
     ],
     registrationLink: "https://forms.gle/TspZSzLhNbSRRxhe9",
     fee: "₹400",
@@ -82,7 +84,7 @@ const events: EventDetails[] = [
     title: "Pitch Mind AI",
     category: "Project Idea Presentation Event",
     description: "Pitch Mind AI is an offline project idea presentation event conducted by the Department of Computer Science, St. Berchmans College, Changanassery. The event aims to identify and encourage students with innovative software project or startup ideas, with a preference for AI-powered solutions (mandatory). All proposed solutions must be ethical, responsible, and socially beneficial.",
-    prize: "₹10,000",
+    prize: "₹6000",
     date: "19 February 2026",
     time: "9:30 AM onwards",
     teamSize: "1-2 Members",
@@ -99,7 +101,8 @@ const events: EventDetails[] = [
       "Submitted projects will be evaluated through presentations at the college.",
       "If the number of registered participants or teams exceeds 10, an online preliminary elimination round will be conducted before the offline evaluation.",
       "All participants will receive a participation certificate.",
-      "The most promising and impactful project will be recognized with a cash prize."
+      "The most promising and impactful project will be recognized with a cash prize.",
+      "Spot registration will end on 9:30 AM on 19th February."
     ],
     registrationLink: "https://forms.gle/fHmjQkizPfAjsw8h7",
     fee: "₹200",

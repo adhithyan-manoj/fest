@@ -48,6 +48,7 @@ const ExhibitionSection = () => {
             <div className="p-4 rounded-xl bg-primary/10 border border-primary/30 mb-8">
               <p className="text-foreground font-semibold">✓ Free Registration</p>
               <p className="text-foreground font-semibold">✓ Participants will receive a Participation Certificate</p>
+              <p className="text-foreground font-semibold">✓ Registration ends on February 16th</p>
             </div>
 
             {/* Features Grid */}

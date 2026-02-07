@@ -31,13 +31,13 @@ const SponsorsSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
-            Our Partners
+            Our Support
           </span>
           <h2 className="font-display text-4xl md:text-5xl font-bold mb-4">
-            Our <span className="text-gradient">Sponsors</span>
+            Our <span className="text-gradient">Benefactors</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            We're grateful to our sponsors who make AIGNITE possible
+            We're grateful to our benefactors who make AIGNITE possible
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full mt-6" />
         </div>
