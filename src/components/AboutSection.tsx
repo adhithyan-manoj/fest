@@ -120,7 +120,7 @@ const AboutSection = () => {
                     <div className="text-foreground font-medium space-y-1">
                       <p>Adhithyan Manoj</p>
                       <p>Athul Krishnan</p>
-                      <p>Afnan Muhammed</p>
+
                       <p>Blessy T. Willson</p>
                     </div>
                   </div>
