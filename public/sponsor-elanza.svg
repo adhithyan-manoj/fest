@@ -1,0 +1,27 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#BF953F;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#FCF6BA;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#B38728;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#FBF5B7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#AA771C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Black Circular Background -->
+  <circle cx="250" cy="250" r="240" fill="#000000" />
+  
+  <!-- Stylized E with Profile -->
+  <g transform="translate(225, 180)">
+    <path d="M0,0 L40,0 L40,10 L10,10 L10,35 L35,35 L35,45 L10,45 L10,70 L40,70 L40,80 L0,80 Z" fill="url(#goldGradient)" />
+    <!-- Face profile hint inside E -->
+    <path d="M10,20 Q18,20 18,35 Q18,50 10,50" fill="none" stroke="url(#goldGradient)" stroke-width="2" />
+  </g>
+  
+  <!-- ELANZA Text -->
+  <text x="250" y="340" font-family="Serif, 'Times New Roman'" font-size="80" font-weight="bold" fill="url(#goldGradient)" text-anchor="middle" letter-spacing="2">ELANZA</text>
+  
+  <!-- UNISEX SALON Text -->
+  <text x="250" y="390" font-family="Serif, 'Times New Roman'" font-size="28" font-weight="bold" fill="url(#goldGradient)" text-anchor="middle" letter-spacing="4">UNISEX SALON</text>
+</svg>

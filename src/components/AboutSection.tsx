@@ -33,7 +33,7 @@ const AboutSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="font-display text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
             About <span className="text-gradient">AIGNITE</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full" />
@@ -73,11 +73,11 @@ const AboutSection = () => {
                 Organising <span className="text-gradient">Committee</span>
               </h3>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 text-base">
-                <div className="space-y-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 md:gap-y-8 text-base">
+                <div className="space-y-4 md:space-y-6">
                   <div>
-                    <p className="text-primary font-bold text-xs uppercase tracking-[0.2em] mb-2 opacity-80">Principal</p>
-                    <p className="text-foreground font-medium">Rev. Prof. Dr. Teddy Kanjooparampil</p>
+                    <p className="text-primary font-bold text-[10px] md:text-xs uppercase tracking-[0.2em] mb-1 md:mb-2 opacity-80">Principal</p>
+                    <p className="text-foreground font-medium text-sm md:text-base">Rev. Prof. Dr. Teddy Kanjooparampil</p>
                   </div>
 
                   <div>

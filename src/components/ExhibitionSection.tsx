@@ -39,7 +39,7 @@ const ExhibitionSection = () => {
             <span className="inline-block px-4 py-1 rounded-full bg-secondary/10 text-secondary text-sm font-medium mb-4">
               Showcase Zone
             </span>
-            <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
               AIGNITE <span className="text-gradient">Exhibition</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
@@ -52,7 +52,7 @@ const ExhibitionSection = () => {
             </div>
 
             {/* Features Grid */}
-            <div className="grid grid-cols-2 gap-4 mb-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
               {exhibitionFeatures.map((feature) => (
                 <div
                   key={feature.title}
@@ -92,9 +92,9 @@ const ExhibitionSection = () => {
 
               {/* Inner Content */}
               <div className="absolute inset-16 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center backdrop-blur-sm border border-primary/30">
-                <div className="text-center">
-                  <div className="font-display text-6xl font-bold text-gradient mb-2">20+</div>
-                  <div className="text-muted-foreground">Projects</div>
+                <div className="text-center p-4">
+                  <div className="font-display text-4xl sm:text-6xl font-bold text-gradient mb-2">20+</div>
+                  <div className="text-sm sm:text-base text-muted-foreground">Projects</div>
                 </div>
               </div>
 

@@ -39,7 +39,7 @@ const EventDetailsDialog = ({ event, isOpen, onClose }: EventDetailsDialogProps)
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-2xl max-h-[90vh] p-0 bg-card border-border overflow-hidden">
+      <DialogContent className="w-[95vw] sm:w-full max-w-2xl max-h-[90vh] p-0 bg-card border-border overflow-hidden">
         {/* Event Image Header */}
         <div className="relative h-48 overflow-hidden">
           <img
@@ -53,7 +53,7 @@ const EventDetailsDialog = ({ event, isOpen, onClose }: EventDetailsDialogProps)
               {event.category}
             </span>
             <DialogHeader>
-              <DialogTitle className="font-display text-3xl font-bold text-foreground">
+              <DialogTitle className="font-display text-2xl sm:text-3xl font-bold text-foreground">
                 {event.title}
               </DialogTitle>
             </DialogHeader>

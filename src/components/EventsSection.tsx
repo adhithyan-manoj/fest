@@ -138,7 +138,7 @@ const EventsSection = () => {
           <span className="inline-block px-4 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
             What's Happening
           </span>
-          <h2 className="font-display text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
             Featured <span className="text-gradient">Events</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
@@ -174,14 +174,14 @@ const EventsSection = () => {
                 {/* Content Overlay */}
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   {/* Prize Badge */}
-                  <div className="flex flex-wrap gap-3 mb-6">
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 backdrop-blur-md border border-primary/30 shadow-[0_0_15px_rgba(var(--primary),0.1)]">
-                      <Trophy className="w-4 h-4 text-primary" />
-                      <span className="text-primary font-display font-bold text-xs md:text-sm">Prize: {event.prize}</span>
+                  <div className="flex flex-col xs:flex-row flex-wrap gap-2 sm:gap-3 mb-4 sm:mb-6">
+                    <div className="inline-flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full bg-primary/10 backdrop-blur-md border border-primary/30 shadow-[0_0_15px_rgba(var(--primary),0.1)] w-fit">
+                      <Trophy className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-primary" />
+                      <span className="text-primary font-display font-bold text-[10px] xs:text-xs sm:text-sm">Prize: {event.prize}</span>
                     </div>
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/20 backdrop-blur-md border border-secondary/50 shadow-[0_0_20px_rgba(234,179,8,0.3)] animate-pulse-slow">
-                      <Banknote className="w-4 h-4 text-secondary" />
-                      <span className="text-secondary font-display font-bold text-sm md:text-base">Entry Fee: {event.fee}</span>
+                    <div className="inline-flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full bg-secondary/20 backdrop-blur-md border border-secondary/50 shadow-[0_0_20px_rgba(234,179,8,0.3)] animate-pulse-slow w-fit">
+                      <Banknote className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-secondary" />
+                      <span className="text-secondary font-display font-bold text-[10px] xs:text-xs sm:text-sm">Entry Fee: {event.fee}</span>
                     </div>
                   </div>
 

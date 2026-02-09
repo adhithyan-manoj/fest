@@ -18,6 +18,11 @@ const sponsors = [
     name: "Sky Line Computers",
     logo: "/sponsor-skyline.png",
     alt: "Sky Line Computers - The Digital Mart"
+  },
+  {
+    name: "Elanza Unisex Salon",
+    logo: "/sponsor-elanza.svg",
+    alt: "Elanza Unisex Salon - Grooming Partner"
   }
 ];
 
@@ -33,7 +38,7 @@ const SponsorsSection = () => {
           <span className="inline-block px-4 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
             Our Support
           </span>
-          <h2 className="font-display text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
             Our <span className="text-gradient">Benefactors</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">

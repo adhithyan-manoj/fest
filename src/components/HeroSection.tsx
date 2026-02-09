@@ -28,7 +28,7 @@ const HeroSection = () => {
         </div>
 
         {/* Main Title */}
-        <h1 className="font-display text-6xl md:text-8xl lg:text-9xl font-bold mb-6 animate-fade-in" style={{ animationDelay: '0.1s' }}>
+        <h1 className="font-display text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold mb-6 animate-fade-in" style={{ animationDelay: '0.1s' }}>
           <span className="text-gradient">AIGNITE</span>
         </h1>
 
