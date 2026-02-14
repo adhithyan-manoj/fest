@@ -99,6 +99,7 @@ const events: EventDetails[] = [
     rules: [
       "Participants may register individually or as a team (maximum 2 members per team).",
       "Submitted projects will be evaluated through presentations at the college.",
+      "Bring your live project for the presentation.",
       "If the number of registered participants or teams exceeds 10, an online preliminary elimination round will be conducted before the offline evaluation.",
       "All participants will receive a participation certificate.",
       "The most promising and impactful project will be recognized with a cash prize.",
